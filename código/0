@@ -38,11 +38,11 @@ exibir = { passaram mensagens } => processo.nodejs({
         lista: testes
         função: resultado => lista.mapear({
           lista: (resultado("descrever")).mensagens
-          função: mensagem => [
+          função: mensagem => [[
             nome
             " | "
-            mensagem
-          ] * ""
+            mensagem * ""
+          ] * ""]
         })
       }))
     }
@@ -53,13 +53,13 @@ exibir = { passaram mensagens } => processo.nodejs({
     resultado = {
       passaram
       mensagens: [
-        passaram == 1 ? "ok" : [
+        passaram == 1 ? ["ok"] : [
           "Esperava que "
           "" + args[0]
           " fosse igual a "
           "" + args[1]
           "."
-        ] * ""
+        ]
       ]
     }
     destino == "descrever" ? resultado : exibir(resultado)
@@ -72,13 +72,13 @@ exibir = { passaram mensagens } => processo.nodejs({
     resultado = {
       passaram
       mensagens: [
-        passaram == 1 ? "ok" : [
+        passaram == 1 ? ["ok"] : [
           "Esperava que ["
           args[0] * ", "
           "] fosse igual a ["
           args[1] * ", "
           "]."
-        ] * ""
+        ]
       ]
     }
     destino == "descrever" ? resultado : exibir(resultado)
