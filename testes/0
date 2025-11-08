@@ -6,4 +6,4 @@ uniteste.descrever({
     iguais.0
     listas_iguais.0
   ]
-})
+})("node")
