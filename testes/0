@@ -1,9 +1,9 @@
 uniteste = ../código/0
 
-uniteste.descrever({
+uniteste.exibir(uniteste.descrever({
   nome: "Uniteste"
   testes: [
     iguais.0
     listas_iguais.0
   ]
-})("node")
+}))
