@@ -16,9 +16,9 @@ Compara listas elemento a elemento.
 
 ## descrever : função
 
-`{ título : texto testes : lista<uniteste> }` => `uniteste : objeto`
+`{ nome : texto testes : lista<uniteste> }` => `uniteste : objeto`
 
-Agrupa testes sob um título.
+Agrupa testes sob um nome.
 
 ## exibir : função
 
