@@ -1,5 +1,5 @@
 lista = https://cdn.jsdelivr.net/gh/angelonuffer/lista@32aa798d17afce6fac77e4b77758c9f94e7cbb9e/código/0
-processo = https://cdn.jsdelivr.net/gh/angelonuffer/processo@be3f9ea44ab58100e462ef0b70b1042df96365bf/código/0
+processo = https://cdn.jsdelivr.net/gh/angelonuffer/processo@fa932865e0366e3aa18dc2d201754e548a9e3b03/código/0
 
 compara_listas = { lista_1 lista_2 } =>
   | lista_1[.] != lista_2[.] = 0
